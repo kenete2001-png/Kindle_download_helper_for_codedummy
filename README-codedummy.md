@@ -8,7 +8,17 @@ Download all your kindle books script without programming knowledge and local de
 
 ### without any local installation or dev setup
 
-try this 
+follow these 4 steps 
+
+**fork this repo**
+**click action**
+**grab csrf ** more see at how to grab cookie
+**run workflow**
+
+
+https://user-images.githubusercontent.com/2363295/173043109-a17ec588-f32a-4075-a2f3-c00bfa4235d3.mp4
+
+
 
 ### download an easy to use GUI 
 
