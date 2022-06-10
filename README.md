@@ -3,6 +3,7 @@
 Download all your kindle books script without programming knowledge and local dev setup.
 
 
+免安装免下载一键备份kindle电子书
 
 ## if you are like me as a programming  dummy with little techinical background and tired of python/docker etc.
 
