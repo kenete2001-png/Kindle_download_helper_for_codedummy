@@ -73,7 +73,6 @@ https://user-images.githubusercontent.com/2363295/173043109-a17ec588-f32a-4075-a
 - 如果出现名字太长的报错可以增加: `--cut-length 80` 来截断文件名
 - 支持推送文件下载 `--pdoc`
 
-<img width="1045" alt="image" src="https://user-images.githubusercontent.com/15976103/172113475-92862b57-bb39-4cd7-84d5-6bc428172bc4.png">
 
 ## Enjoy
 
