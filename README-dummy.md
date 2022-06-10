@@ -6,21 +6,21 @@ Download all your kindle books script without programming knowledge and local de
 
 ## if you are like me as a programming  dummy with little techinical background and tired of python/docker etc.
 
-### without any local installation or dev setup
+### Option1-without any local installation or dev setup
 
 follow these 4 steps 
 
-**fork this repo**
-**click action**
-**grab csrf ** more see at how to grab cookie
-**run workflow**
+1. **fork this repo**    
+2. **click action**    
+3. **grab csrf ** more see at how to grab cookie    
+4. **run workflow**    
 
 
 https://user-images.githubusercontent.com/2363295/173043109-a17ec588-f32a-4075-a2f3-c00bfa4235d3.mp4
 
 
 
-### download an easy to use GUI 
+### option2-download an easy to use GUI 
 
 <img width="1661" alt="image" src="https://user-images.githubusercontent.com/15976103/172113700-7be0ae1f-1aae-4b50-8377-13047c63411b.png">
 
