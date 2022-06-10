@@ -47,11 +47,22 @@ jobs:
         git config --local user.email "ations@github.com"
         git config --local user.name "github"
         git remote set-url origin "https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}"
-    # 更新仓库
-    - name: Update repo
-      run: |
-        git add .
-        git commit -m "auto update kindle download"
-        git pull
-        git push -u origin main
-      
+
+    - name: Commit and push
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "${timestamp}" || exit 0
+        git pull --rebase
+        git push
+    - name: Release
+      uses: marvinpinto/action-automatic-releases@latest
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: ${{ github.run_id }}
+        prerelease: false
+        title: ${{ github.run_id }}
+        files: |
+          DOWNLOADS/*
